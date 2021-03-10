@@ -1,3 +1,45 @@
 @charset "UTF-8";
 /* CSS Document */
+/* colors:
+purple: #C382DA
+green: #AEE9BA
+light purple: #F8CBF8
+yellow: #EEE0B0
+*/
+body {
+	font-family: 'Pangolin', cursive;
+}
 
+h1, h2, h3 {
+	text-transform: uppercase;
+	color: black;
+}
+.logo {
+	background: #C382DA;
+}
+.logo img {
+	width: 200px;
+	
+}
+nav {
+	background: #F8CBF8;
+}
+.nav-link {
+	color: black;
+}
+.nav-link:hover {
+	color: azure;
+}
+.navbar-brand {
+	color:black; 
+}
+.navbar-toggler-icon {
+	background-image: url("../images/15211315791553239378-128.png")
+}
+.products {
+	margin: 20px;
+	text-align: center;
+}
+.content-shop {
+	background: #EEE0B0;
+}
