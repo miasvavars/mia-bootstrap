@@ -46,3 +46,20 @@ nav {
 .card-body {
 	background-color: #EEE0B0;
 }
+.footer {
+  background: #9AD1CC;
+  padding: 10px 0;
+}
+.footer a {
+  color: dimgrey;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid dimgrey;
+  transition: all .5s ease;
+}
+.footer a:first-child {
+  border-left: 1px solid dimgrey;
+}
+.footer a:hover {
+  color: white;
+}
